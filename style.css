@@ -11,6 +11,7 @@ body{
     height:100vh;
     display:flex;
     align-items:center;
+    color:white;
 }
 .container{
   max-width: 960px;
@@ -42,4 +43,40 @@ body{
     background-color: #225470;
     opacity: 0.8;
     z-index: 1;
+}
+.header-content{
+    z-index:2;
+}
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-content p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.btn{
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.section{
+    padding: 20px 0;
+}
+
+.section-b{
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 960px) {
+   .container{
+    padding-right: 3rem;
+    padding-left: 3rem;
+   }
 }
